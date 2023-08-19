@@ -15,17 +15,17 @@
    default_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &kp Q        &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
+        //│  Q       │  	W     │ 	 E     │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
+            &kp Q       &kp W     &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │BACKSPACE │
-            &kp A        &kp S      &kp D      &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp BSPC
+        //│  A       │     S    │ 	 D     │    F     │  		G    │   │    H     │    J     │    K     │    L     │ Enter		│
+            &kp A        &kp S     &kp D      &kp F      &kp G          &kp H      &kp J      &kp K      &kp L     &kp ENTER 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
-            &kp Z        &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp ENTER
+        //│  Z       │ 		 X    │ 	 C     │  	V     │  		B    │   │    N   	│    M     │ 	 	{     │ 		}    │ 	 ENTER  │
+            &kp Z       &kp X     	&kp C     &kp V      	&kp B         &kp N      &kp M     &kp LBRC   &kp RBRC   &kp ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                    &kp LGUI  &mo 1      &kp LCTRL    &kp SPACE  &mo 2   &kp LSHIFT
-        //                       ╰─────────┴──────────┴──────────╯   ╰──────────┴──────────┴─────────╯
+                                  &kp LGUI   &kp LCTRL 	 &mo 1         &kp SPACE   &kp BSPC   &kp LSHIFT
+        //                  		╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
             >;
         };
 
@@ -33,37 +33,28 @@
    bottom_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  {       │  		}	  │
-            &kp Q        &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I     &kp LBRC   &kp RBRC
+        //│  1       │  2       │  		3    │  	$	    │    %     │   │     &    │   &    	 │    '     │    ,     │  	.
+            &kp N1      &kp N2     &kp N3    &kp DLLR  &kp PRCNT        &kp AMPS   &kp AMPS   &kp SQT    &kp COMMA   &kp DOT 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │BACKSPACE │
-            &kp A        &kp S      &kp D      &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp BSPC
+        //│  4       │  	5     │  		6    │   	=   	│  		?    │   │         	│    |     │     /    │   [      │			] 	│
+            &kp N4      &kp N5    	&kp N6      &kp F      &kp G       &kp 				&kp PIPE   &kp FSLH 	 &kp LBKT  &kp RBKT  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
-            &kp Z        &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp ENTER
+        //│  		7  	 │  	8     │  		9    │  	<     │  		>    │   │     ?    │    :   	 │ 		 <    │   (      │ 		)			│
+            &kp N7      &kp N8      &kp N9      &kp V      &kp B          &kp       &kp     &kp COMMA  	&kp LPAR 	 &kp RPAR 	 
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                    &kp LGUI  &mo 1      &kp LCTRL    &kp SPACE  &mo 2   &kp LSHIFT
-        //                       ╰─────────┴──────────┴──────────╯   ╰──────────┴──────────┴─────────╯
+                                  &kp HASH 		&kp AT    &kp PLUS  		 &kp UNDER 	&kp LEFT 		&kp RIGHT
+        //                  		╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
             >;
-        };
-
-
-                raise_layer {
-                        bindings = <
-
-//├──────────┼────────────┼───────────┼─────────┼──────────┤   ├───────────┼───────────┼───────────┼──────────────────┼──────────┼──────────┼──────────┤
-//|  	TAB  	 |  	!  			|  		@ 	 	|  	#   	|  		$  	 |   |		 %  	 |     ^  	 |  	&  		 |  		 	*  				|  	(  		 | 		)  	 	|  	BKSP   |
-   &kp TAB  		&kp EXCL 		  &kp AT 		&kp HASH 	&kp DLLR 		   &kp PRCNT 	 &kp CARET 	 &kp AMPS 	 &kp KP_MULTIPLY 	  &kp LPAR 	 &kp RPAR   &kp BSPC
-//├──────────┼────────────┼───────────┼─────────┼──────────┤   ├───────────┼───────────┼───────────┼──────────────────┼──────────┼──────────┼──────────┤
-//| CTRL 																   						 	 		 	 |					 |	- 			 |  		=    |   		[     			|  		]    |  	\  		|  	`   	 |
-   &kp LCTRL 			&trans   		&trans 		&trans   		&trans   			&trans     &kp MINUS 	 &kp EQUAL   		&kp LBKT  			&kp RBKT 	 &kp BSLH  &kp GRAVRBRC
-//├──────────┼────────────┼───────────┼─────────┼──────────┤   ├───────────┼───────────┼───────────┼──────────────────┼──────────┼──────────┼──────────┤
-//| SHFT 	      																							 |     _  	 |  	+  	 	 |  	 {  	 |        }   			| 	"|" 	 |  		~   |
-   &kp LSHFT 			&trans   		&trans 		 &trans   	&trans   		 &kp UNDER    &kp PLUS  	&kp LBRC  		 &kp RBRC 			 &kp PIPE  &kp TILDE
-//├──────────┼────────────┼───────────┼─────────┼──────────┤   ├───────────┼───────────┼───────────┼──────────────────┼──────────┼──────────┼──────────┤
-//           | 			GUI 	|   SPC			|     ENT |     				 | 		ALT 	 |
-                &kp LGUI 		&kp SPACE   &kp RET   								&kp RALT
-		>;
-                };
-        };
+	        };
+      };
 };
+
+
+
+
+
+//		!  		 |    - 		 	|  		\  	 	|  	`  	 	|
+  // 	&kp EXCL &kp MINUS 	 	&kp BSLH &kp GRAVRBRC
+  //  &kp TILDE ~
+
+
