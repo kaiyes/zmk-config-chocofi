@@ -45,16 +45,7 @@
                                   &kp HASH 		&kp AT    &kp PLUS  		 &kp UNDER 	&kp LEFT 		&kp RIGHT
         //                  		╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
             >;
-	        };
-      };
+        };
+			};
 };
-
-
-
-
-
-//		!  		 |    - 		 	|  		\  	 	|  	`  	 	|
-  // 	&kp EXCL &kp MINUS 	 	&kp BSLH &kp GRAVRBRC
-  //  &kp TILDE ~
-
 
