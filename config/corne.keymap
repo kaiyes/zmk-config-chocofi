@@ -33,14 +33,14 @@
    bottom_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  1       │  2       │  		3    │  	$	    │    %     │   │     &    │   &    	 │    '     │    ,     │  	.
-            &kp N1      &kp N2     &kp N3    &kp DLLR  &kp PRCNT        &kp AMPS   &kp AMPS   &kp SQT    &kp COMMA   &kp DOT 
+        //│  1       │  2       │  		3    │  	$	    │    %     │   │     &    │   "    	 │    '     │    ,     │  	.
+            &kp N1      &kp N2     &kp N3    &kp DLLR  &kp PRCNT        &kp AMPS   &kp DQT   &kp SQT    &kp COMMA   &kp DOT 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  4       │  	5     │  		6    │   	=   	│  		?    │   │         	│    |     │     /    │   [      │			] 	│
-            &kp N4      &kp N5    	&kp N6      &kp F      &kp G       &kp 				&kp PIPE   &kp FSLH 	 &kp LBKT  &kp RBKT  
+        //│  4       │  	5     │  		6    │   	=   	│  		?    │   │    ~     │    |     │     /    │   [      │			] 	│
+            &kp N4      &kp N5    	&kp N6   &kp EQUAL  &kp QUES       &kp TILDE	&kp PIPE   &kp FSLH 	 &kp LBKT  &kp RBKT  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  		7  	 │  	8     │  		9    │  	<     │  		>    │   │     ?    │    :   	 │ 		 <    │   (      │ 		)			│
-            &kp N7      &kp N8      &kp N9      &kp V      &kp B          &kp       &kp     &kp COMMA  	&kp LPAR 	 &kp RPAR 	 
+        //│  		7  	 │  	8     │  		9    │  	<     │  		>    │   │     ?    │    :   	 │ 		 `    │   (      │ 		)			│
+            &kp N7      &kp N8      &kp N9      &kp V      &kp B        &kp EXCL 	&kp SCLN   &kp GRAVE  &kp LPAR 	 &kp RPAR 	 
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                   &kp HASH 		&kp AT    &kp PLUS  		 &kp UNDER 	&kp LEFT 		&kp RIGHT
         //                  		╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
@@ -51,10 +51,5 @@
 
 
 
-
-
-//		!  		 |    - 		 	|  		\  	 	|  	`  	 	|
-  // 	&kp EXCL &kp MINUS 	 	&kp BSLH &kp GRAVRBRC
-  //  &kp TILDE ~
 
 
