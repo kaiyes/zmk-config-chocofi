@@ -29,7 +29,7 @@
 bottom_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-            &kp N1      &kp N2     &kp N3    &kp EQUAL &kp PRCNT        &kp AMPS   &kp AMPS  &kp SQT    &kp COMMA   &kp DOT
+            &kp N1      &kp N2     &kp N3    &kp DLLR	 &kp PRCNT        &kp AMPS   &kp AMPS  &kp SQT    &kp COMMA   &kp DOT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
             &kp N4      &kp N5      &kp N6   &kp PIPE 	&kp EQUAL  		 &kp EQUAL &kp EQUAL  &kp  EQUAL  &kp LBKT  &kp RBKT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
