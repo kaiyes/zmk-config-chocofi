@@ -39,7 +39,7 @@ lower_layer {
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
        &none &kp LEFT  &kp RIGHT  &kp UP 		 &kp DOWN 	&kp STAR 				&kp LT 	  &kp GT 		 &kp QMARK 	&kp COMMA  &kp DOT 	&none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                   &kp UP 	 &kp DOWN 	&kp LEFT_ALT 		&kp UNDER  &kp LEFT    &kp RIGHT
+                                  &kp LEFT_ALT &kp LGUI &none 				&kp UNDER  &kp LEFT    &kp RIGHT
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
       >;
     };
