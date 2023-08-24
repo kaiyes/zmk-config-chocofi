@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
- * SPDX-License-Identifier: MIT
+ * SPDX-License-Identifier: MT
  */
 
 #include <behaviors.dtsi>
@@ -39,7 +39,7 @@ lower_layer {
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
        &none &kp LEFT  &kp RIGHT  &kp UP 		 &kp DOWN 	&kp STAR 				&kp LT 	  &kp GT 		 &kp QMARK 	&kp COMMA  &kp DOT 	&none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &kp LEFT_ALT &kp LGUI &none 				&kp UNDER  &kp LEFT    &kp RIGHT
+                                  &kp LEFT_ALT &kp LGUI &none 				&kp UNDER  &kp &bt BT_CLR    &kp RIGHT
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
       >;
     };
