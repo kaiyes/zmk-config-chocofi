@@ -33,13 +33,13 @@
 lower_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-       &none &kp ESC    &kp AT    &kp HASH  &kp DLLR	&kp PRCNT      	 &kp CARET 	&kp AMPS   &kp LPAR  	&kp RPAR   &kp BSPC &none
+       &none &kp ESC   &kp AT    	&kp HASH   &kp DLLR		&kp PRCNT      	 &kp CARET 	&kp AMPS   &kp LPAR  	&kp RPAR   &kp BSPC &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none &kp COLON &kp SQT    &kp DQT   	&kp EXCL &kp EQUAL  		 	 &kp PLUS 	&kp MINUS  &kp LBKT  	&kp RBKT   &kp PIPE &none
+       &none &kp TAB 	 &kp SQT    &kp DQT    &kp EXCL 	&kp EQUAL  		 	 &kp PLUS 	&kp MINUS  &kp LBKT  	&kp RBKT   &kp PIPE &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none &kp F1     &kp F2    &kp F3   	&kp STAR    &kp QMARK 		 	 &kp LT 	  &kp GT 		 &kp QMARK 	&kp COMMA  &kp DOT 	&none
+       &none &kp LEFT  &kp RIGHT  &kp UP 		 &kp DOWN 	&kp STAR 				&kp LT 	  &kp GT 		 &kp QMARK 	&kp COMMA  &kp DOT 	&none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                   &kp UP 	 &kp DOWN 	&kp LEFT_ALT &kp UNDER  &kp LEFT     &kp RIGHT
+                                   &kp UP 	 &kp DOWN 	&kp LEFT_ALT 		&kp UNDER  &kp LEFT    &kp RIGHT
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
       >;
     };
@@ -47,13 +47,13 @@ lower_layer {
 raise_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-       &none &kp ESC    &kp AT    &kp HASH  	&kp DLLR	&kp PRCNT      &kp CARET 	&kp AMPS   &kp LPAR  	&kp RPAR   &kp BSPC &none
+       &none &kp ESC    &kp AT    &kp HASH  	&kp DLLR	&kp PRCNT      &kp N1 		&kp N2   		&kp N3 		&kp PLUS &kp MINUS &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none &kp N4    	&kp N5     &kp N6   	&kp PIPE 	&kp EQUAL  		 &kp COLON 	&kp MINUS  &kp LBKT  	&kp RBKT   &kp ENTER &none
+       &none &kp N4    	&kp N5     &kp N6   	&kp PIPE 	&kp EQUAL  		 &kp N4 		&kp N5 			&kp N6 		&kp RBKT   &kp ENTER &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none &kp N7     &kp N8     &kp N9   	&kp N0    &kp QMARK 		 &kp LT 	  &kp GT 		 &kp QMARK 	&kp COMMA  &kp DOT 	&none
+       &none &kp N7     &kp N8     &kp N9   	&kp N0    &kp QMARK 		 &kp N7 		&kp N8 			&kp N9 		&kp COMMA  &kp DOT 	&none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                   &kp HASH    &kp AT   &kp PLUS       &kp UNDER  &kp LEFT     &kp RIGHT
+                                   &kp HASH    &kp AT   &kp PLUS       &none &kp N0 &kp MINUS
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
       >;
     };
