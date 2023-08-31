@@ -25,7 +25,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
       &none  &kp Z      &kp X     &kp C      &kp V    	&kp B       	 &kp N      &kp M      &kp QMARK 	&kp COMMA  &kp SEMI &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  		 &lt RAISE SPACE  &LEFT_ALT &kp LCTRL
+                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  		 &lt RAISE SPACE  &kp LEFT_ALT &kp LCTRL
         //               	 ╰─────────────────────────────────────╯   ╰────────────────────────────────────╯
             >;
       };
