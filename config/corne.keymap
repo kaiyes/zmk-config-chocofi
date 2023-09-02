@@ -13,8 +13,19 @@
 #define RAISE   2
 
 / {
-        keymap {
-                compatible = "zmk,keymap";
+
+	 behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "space-enter";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp SPACE>, <&kp ENTER>;
+        };
+    };
+
+  keymap {
+   compatible = "zmk,keymap";
 
    default_layer {
             bindings = <
@@ -25,12 +36,12 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
       &none  &kp Z      &kp X     &kp C      &kp V    	&kp B       	 &kp N      &kp M      &kp QMARK 	&kp COMMA  &kp COLON &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  		 &lt RAISE SPACE  &kp LEFT_ALT &kp LCTRL
+                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  		 &td0 &kp LEFT_ALT &kp LCTRL
         //               	 ╰─────────────────────────────────────╯   ╰────────────────────────────────────╯
             >;
       };
 
-lower_layer {
+		lower_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
        &none &kp ESC   &kp AT    	&kp HASH   &kp DLLR		&kp PRCNT      &kp CARET 	&kp AMPS   	&kp UP 		 &kp UNDER  &kp BSPC &none
