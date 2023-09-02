@@ -17,7 +17,7 @@
 	 behaviors {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
-            label = "space-enter";
+            label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp SPACE>, <&kp ENTER>;
@@ -34,9 +34,9 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
       &none  &kp A      &kp S     &kp D      &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp FSLH &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-      &none  &kp Z      &kp X     &kp C      &kp V    	&kp B       	 &kp N      &kp M      &kp QMARK 	&kp COMMA  &kp COLON &none
+      &none  &kp Z      &kp X     &kp C      &kp V    	&kp B       	 &kp N    &kp M  &kp QMARK 	&kp COMMA  &lt RAISE COLON &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  		 &td0 &kp LEFT_ALT &lt LCTRL RAISE
+                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  		 &td0 &kp LEFT_ALT &kp LCTRL 
         //               	 ╰─────────────────────────────────────╯   ╰────────────────────────────────────╯
             >;
       };
