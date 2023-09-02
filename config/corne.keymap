@@ -19,7 +19,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "space-enter";
             #binding-cells = <0>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
             bindings = <&kp SPACE>, <&kp ENTER>;
         };
     };
@@ -36,7 +36,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
       &none  &kp Z      &kp X     &kp C      &kp V    	&kp B       	 &kp N      &kp M      &kp QMARK 	&kp COMMA  &kp COLON &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  		 &td0 &kp LEFT_ALT &kp LCTRL
+                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  		 &td0 &kp LEFT_ALT &lt LCTRL RAISE
         //               	 ╰─────────────────────────────────────╯   ╰────────────────────────────────────╯
             >;
       };
