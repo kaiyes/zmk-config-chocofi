@@ -46,7 +46,7 @@
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
        &none &kp ESC   &kp AT    	&kp HASH   &kp DLLR		&kp PRCNT      &kp CARET 	&kp AMPS   	&kp UP 		 &kp UNDER  &kp BSPC &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none &kp TAB 	 &none 			&none 		 &kp EXCL 	&kp EQUAL  		 &kp PIPE 	&kp LEFT 		&kp DOWN 	 &kp RIGHT  &kp BSLH &none
+       &none &kp TAB 	 &kp TILDE 	&kp EXCL 	&kp EQUAL  		 &kp PIPE 	&kp LEFT 		&kp DOWN 	 &kp RIGHT  &kp BSLH &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
        &none &kp PLUS  &kp MINUS 	&kp STAR 	 &kp FSLH &kp SEMI 			 	 &kp LT 	  &kp GT 			&kp SQT  	 &kp DQT 		&kp DOT  &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
