@@ -46,9 +46,9 @@
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
        &none &kp ESC   &kp AT    	&kp HASH   &kp DLLR		&kp PRCNT      &kp CARET 	&kp AMPS   	&kp UP 		 &kp UNDER  &kp BSPC &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none &kp TAB 	 &kp TILDE 	&kp EXCL 	&kp EQUAL  		 &kp PIPE 	&kp LEFT 		&kp DOWN 	 &kp RIGHT  &kp BSLH &none
+       &none &kp TAB 	 &kp TILDE 	&kp EXCL 	 &kp EQUAL  &kp PIPE 			 &kp PG_UP	&kp LEFT   &kp DOWN 	 &kp RIGHT  &kp BSLH &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none &kp PLUS  &kp MINUS 	&kp STAR 	 &kp FSLH &kp SEMI 			 	 &kp LT 	  &kp GT 			&kp SQT  	 &kp DQT 		&kp DOT  &none
+       &none &kp PLUS  &kp MINUS 	&kp STAR 	 &kp FSLH 	&kp SEMI 			 &kp LT 	  &kp GT 			&kp SQT  	 &kp DQT 		&kp DOT  &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                   &kp LEFT_ALT &kp LGUI 	&none 			 &kp ENTER  &kp LSHIFT &kp LCTRL
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
@@ -59,19 +59,16 @@
 raise_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-       &none &kp ESC    &none    	 &none 			&none 		&bt BT_CLR  	 &kp N7 		&kp N8   		&kp N9 		&kp LBRC   &kp RBRC  &none
+       &none &kp ESC    &none    	 &none 			&none 		&kp PG_UP  	 		&kp N7 		&kp N8   		&kp N9 		&kp LBRC   &kp RBRC  &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none  &kp TAB  	&none 		 &none 			&none 		&none   	 		 &kp N4 		&kp N5 			&kp N6 		&kp LBKT   &kp RBKT  &none
+       &none  &kp TAB  	&none 		 &none 			&none 		&kp PG_DOWN   	&kp N4 		&kp N5 			&kp N6 		&kp LBKT   &kp RBKT  &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none 	&none     &none      &none   	  &none     &none 		 		 &kp N1 		&kp N2 			&kp N3 		&kp LPAR  	&kp RPAR &none
+       &none &bt BT_CLR &none      &none   	  &none     &none 		 		 	&kp N1 		&kp N2 			&kp N3 		&kp LPAR  	&kp RPAR &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                    &none    	&none   	&none 				 &none 			&kp N0 			&none
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
       >;
     };
-
-
-		    
-    };
+  };
 };
 
