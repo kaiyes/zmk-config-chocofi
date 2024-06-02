@@ -34,9 +34,9 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
   &kp TAB 	 &kp A   		 &kp S     &kp D      &kp F      &kp G          &kp H      &kp J      &kp K      &kp L  	  &kp FSLH &kp ENTER
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-  &kp LCTRL  &kp Z      &kp X     &kp C      &kp V    	&kp B    	 		 &kp N    	&kp M  		 &kp COMMA  &kp QMARK  &kp COLON &kp BSLH
+  &kp C  &kp Z      &kp X     &kp C      &kp V    	&kp B    	 		 &kp N    	&kp M  		 &kp COMMA  &kp QMARK  &kp COLON &kp BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  		 &lt RAISE SPACE &kp LEFT_ALT &kp LCTRL 
+                           	 &kp K   &kp LGUI &lt LOWER SPACE  		 &lt RAISE SPACE &kp C &kp LCTRL 
         //               	 ╰─────────────────────────────────────╯   ╰────────────────────────────────────╯
             >;
       };
