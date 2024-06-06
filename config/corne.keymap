@@ -48,7 +48,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
        &none &kp TAB 	 &kp TILDE 	&kp EXCL 	 &kp EQUAL  &kp PIPE 			 &kp PG_UP	&kp LEFT   &kp DOWN 	 &kp RIGHT  &kp BSLH &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &bt BT_CLR &kp PLUS  &kp MINUS 	&kp STAR 	 &kp FSLH 	&kp SEMI 			 &kp LT 	  &kp GT 			&kp SQT  	 &kp DQT 		&kp DOT  &none
+       &none &kp PLUS  &kp MINUS 	&kp STAR 	 &kp FSLH 	&kp SEMI 			 &kp LT 	  &kp GT 			&kp SQT  	 &kp DQT 		&kp DOT  &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                   &kp LEFT_ALT &kp LGUI 	&none 			 &kp ENTER  &kp LSHIFT &kp LCTRL
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
