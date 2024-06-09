@@ -46,11 +46,11 @@
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
   &kp TILDE &kp EXCL  	&kp AT    &kp HASH   &kp DLLR		&kp PRCNT      &kp CARET 	&kp CARET  &kp AMPS   &kp UP 	 	&kp UNDER &kp BSPC 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-  &kp TILDE  &kp TAB 	 &kp TILDE 	&kp EXCL 	 &kp EQUAL  &kp PIPE 			 &kp PG_UP	&kp PG_UP  &kp LEFT   &kp DOWN 	&kp RIGHT &kp SEMI
+   &kp PLUS &kp MINUS 	&kp STAR 	&kp FSLH 	 &kp EQUAL  &kp PIPE 			 &kp PG_UP	&kp PG_UP  &kp LEFT   &kp DOWN 	&kp RIGHT &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-  &kp PLUS 	&kp MINUS 	&kp STAR 	&kp FSLH   &kp BSLH 	&kp EQUAL				&kp LT		&kp LT 	 	 &kp GT 		&kp SQT  	 &kp DQT  &kp DOT 	 
+ 	&bt BT_CLR &none   		&none 		&kp BSLH 	&kp PG_UP	&kp PG_DOWN		 	 &kp LT			&kp LT 	 	 &kp GT 		&kp SQT  	 &kp DQT  &kp DOT 	 
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &kp LCTRL  &kp LGUI 	&none 			 	 &kp ENTER  &kp ENTER  &kp LSHIFT 
+                                  &kp LCTRL  &kp LGUI 	&none 			 	 &kp ENTER  &kp ENTER  &kp QMARK
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
       >;
     };
