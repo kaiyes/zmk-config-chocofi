@@ -44,11 +44,11 @@
 		lower_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-       &none &kp ESC   &kp AT    	&kp HASH   &kp DLLR		&kp PRCNT      &kp CARET 	&kp AMPS   	&kp UP 		 &kp UNDER  &kp BSPC &none
+    &kp ESC &kp EXCL 		&kp AT    &kp HASH   &kp DLLR		&kp PRCNT      &kp CARET 	&kp AMPS   	&kp UP 		 &kp UNDER  &kp BSPC &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none &kp TAB 	 &kp TILDE 	&kp EXCL 	 &kp EQUAL  &kp PIPE 			 &kp PG_UP	&kp LEFT   &kp DOWN 	 &kp RIGHT  &kp BSLH &none
+    &kp TAB &kp TAB 	 &kp TILDE 	&kp EXCL 	 &kp EQUAL  &kp PIPE 			 &kp PG_UP	&kp LEFT   &kp DOWN 	 &kp RIGHT  &kp BSLH &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-       &none &kp PLUS  &kp MINUS 	&kp STAR 	 &kp FSLH 	&kp SEMI 				&kp LT 	  &kp GT 			&kp SQT  	 &kp DQT 		&kp DOT  &none
+    &kp PLUS &kp PLUS  &kp MINUS 	&kp STAR 	 &kp FSLH 	&kp SEMI 				&kp LT 	  &kp GT 			&kp SQT  	 &kp DQT 		&kp DOT  &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                   &kp LEFT_ALT &kp LGUI 	&none 			 &kp ENTER  &kp LSHIFT &kp LCTRL
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
