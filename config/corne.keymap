@@ -29,44 +29,29 @@
 
    default_layer {
             bindings = <
-        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
   &kp ESC 	 &kp Q       &kp W     &kp E      &kp R      &kp T          &kp Y  		 &kp U      &kp I      &kp O      &kp P  	 
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
   &kp TAB 	 &kp A   		 &kp S     &kp D      &kp F      &kp G          &kp H  		 &kp J      &kp K      &kp L   	&kp BSLH 
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-  &kp LCTRL  &kp Z      &kp X     &kp C      &kp V    	&kp B    	 		 	&kp N    	 &kp M     &kp COLON &kp COMMA  &kp QMARK  
-        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+  &kp LCTRL  &kp Z       &kp X     &kp C      &kp V    	&kp B    	 		 	&kp N    	 &kp M     &kp COLON &kp COMMA  &kp QMARK  
                            	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  	  &lt RAISE SPACE  &kp ENTER &kp LEFT_ALT
-        //               	 ╰─────────────────────────────────────╯   ╰────────────────────────────────────╯
             >;
       };
 
 		lower_layer {
             bindings = <
-        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-  &kp TILDE &kp EXCL  	&kp AT    &kp HASH   &kp DLLR		&kp PRCNT      &kp CARET  &kp AMPS   &kp UP 	 	&kp UNDER  &kp BSPC 
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-   &kp PLUS &kp MINUS 	&kp STAR 	&kp FSLH 	 &kp EQUAL  &kp PIPE 			 &kp COMMA	&kp LEFT   &kp DOWN 	 &kp RIGHT &kp FSLH 
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
- 	&kp STAR 		&kp FSLH 	&none 		&kp BSLH 	&kp PG_UP	&kp PG_DOWN		 	 &kp UNDER	&kp SEMI 	 	&kp SQT  	&kp DQT    &kp DOT 	 
-        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &kp LCTRL  &kp LGUI 	&none 			 	 &kp ENTER  &kp ENTER  &kp QMARK
-        //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
+  &kp TILDE &kp EXCL  	&kp AT    &kp HASH   &kp DLLR		&kp PRCNT       &kp CARET  	&kp AMPS  	&kp UP 	 	&kp UNDER  &kp BSPC &none
+  &kp PLUS  &kp MINUS 	&kp STAR 	&kp FSLH 	 &kp EQUAL  &kp PIPE 			 	&kp COMMA		&kp LEFT   	&kp DOWN 	&kp RIGHT  &kp FSLH &none
+ 	&kp STAR  &kp FSLH 		&none 		&kp BSLH 	 &kp PG_UP	&kp PG_DOWN		 	&kp UNDER		&kp SEMI 	 	&kp SQT  	&kp DQT    &kp DOT 	&none
+                                  &kp LCTRL  &kp LGUI 	&none 			 	 	&kp ENTER  	&kp ENTER  	&kp QMARK
       >;
     };
 
 
 raise_layer {
             bindings = <
-        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-			&none   &none    	&none 		&none 		 &kp PG_UP  &none 					&kp N7 		 &kp N8   	&kp N9 		 &kp LBRC  &kp RBRC  
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-    	&none  &none  	&none 		 &none 				&none 		&kp PG_DN   		&kp N4  	 &kp N5 		&kp N6 		 &kp LBKT  &kp RBKT  
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-  &bt BT_CLR &none 			&none      &none   	  &none     &none 		 		 	&kp N1 		&kp N2   		&kp N3 		 &kp LPAR  &kp RPAR 
-        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                   &none    	&none   	&none 				 &none 			&kp N0 			&none
-        //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
+			&none   		&none    	&none 	&none 		&kp PG_UP &none 			&kp N7 		 	&kp N8   		&kp N9 		 &kp LBRC  &kp RBRC  &none
+    	&none  			&none  		&none 	&none 		&none 		&kp PG_DN   &kp N4  	 	&kp N5 			&kp N6 		 &kp LBKT  &kp RBKT  &none
+  		&bt BT_CLR 	&none 		&none   &none   	&none     &none 		 	&kp N1 			&kp N2   		&kp N3 		 &kp LPAR  &kp RPAR  &none
+                                   	&none    	&none   	&none 			&none 			&kp N0 			&none
       >;
     };
   };
