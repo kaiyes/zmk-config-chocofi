@@ -30,13 +30,13 @@
    default_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-  &kp ESC 	 &kp Q       &kp W     &kp E      &kp R      &kp T          &kp Y      &kp Y  		&kp U      &kp I      &kp O   &kp P  	 
+  &kp ESC 	 &kp Q       &kp W     &kp E      &kp R      &kp T          &kp Y  		 &kp U      &kp I      &kp O      &kp P  	 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-  &kp TAB 	 &kp A   		 &kp S     &kp D      &kp F      &kp G          &kp H      &kp H  		&kp J      &kp K      &kp L   &kp ENTER
+  &kp TAB 	 &kp A   		 &kp S     &kp D      &kp F      &kp G          &kp H  		 &kp J      &kp K      &kp L   	&kp BSLH 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-  &kp LCTRL  &kp Z      &kp X     &kp C      &kp V    	&kp B    	 		 	&kp N    	 &kp N  		&kp M  	 &kp COMMA  &kp QMARK &kp COLON 
+  &kp LCTRL  &kp Z      &kp X     &kp C      &kp V    	&kp B    	 		 	&kp N    	 &kp M     &kp COLON &kp COMMA  &kp QMARK  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  		 &kp C  &lt RAISE SPACE  &kp LEFT_ALT
+                           	 &kp LSHIFT  &kp LGUI &lt LOWER SPACE  	  &lt RAISE SPACE  &kp ENTER &kp LEFT_ALT
         //               	 ╰─────────────────────────────────────╯   ╰────────────────────────────────────╯
             >;
       };
@@ -44,11 +44,11 @@
 		lower_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-  &kp TILDE &kp EXCL  	&kp AT    &kp HASH   &kp DLLR		&kp PRCNT      &kp CARET 	&kp CARET  &kp AMPS   &kp UP 	 	&kp UNDER &kp BSPC 
+  &kp TILDE &kp EXCL  	&kp AT    &kp HASH   &kp DLLR		&kp PRCNT      &kp CARET  &kp AMPS   &kp UP 	 	&kp UNDER  &kp BSPC 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-   &kp PLUS &kp MINUS 	&kp STAR 	&kp FSLH 	 &kp EQUAL  &kp PIPE 			 &kp PG_UP	&kp PG_UP  &kp LEFT   &kp DOWN 	&kp RIGHT &kp SEMI
+   &kp PLUS &kp MINUS 	&kp STAR 	&kp FSLH 	 &kp EQUAL  &kp PIPE 			 &kp COMMA	&kp LEFT   &kp DOWN 	 &kp RIGHT &kp FSLH 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
- 	&bt BT_CLR &none   		&none 		&kp BSLH 	&kp PG_UP	&kp PG_DOWN		 	 &kp LT			&kp LT 	 	 &kp GT 		&kp SQT  	 &kp DQT  &kp DOT 	 
+ 	&kp STAR 		&kp FSLH 	&none 		&kp BSLH 	&kp PG_UP	&kp PG_DOWN		 	 &kp UNDER	&kp SEMI 	 	&kp SQT  	&kp DQT    &kp DOT 	 
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                   &kp LCTRL  &kp LGUI 	&none 			 	 &kp ENTER  &kp ENTER  &kp QMARK
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
@@ -59,11 +59,11 @@
 raise_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-			&none   &none    	&none 		&none 		 &kp PG_UP  &none 					&kp N7 		&kp N7  		&kp N8   	&kp N9 		 &kp LBRC  &kp RBRC  
+			&none   &none    	&none 		&none 		 &kp PG_UP  &none 					&kp N7 		 &kp N8   	&kp N9 		 &kp LBRC  &kp RBRC  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-    	&none  &none  	&none 		 &none 				&none 		&kp PG_DN   		&kp N4 		&kp N4  		&kp N5 		&kp N6 		 &kp LBKT  &kp RBKT  
+    	&none  &none  	&none 		 &none 				&none 		&kp PG_DN   		&kp N4  	 &kp N5 		&kp N6 		 &kp LBKT  &kp RBKT  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-  &bt BT_CLR &none 			&none      &none   	  &none     &none 		 		 	&kp N1 		&kp N1  		&kp N2 		&kp N3 		 &kp LPAR  &kp RPAR 
+  &bt BT_CLR &none 			&none      &none   	  &none     &none 		 		 	&kp N1 		&kp N2   		&kp N3 		 &kp LPAR  &kp RPAR 
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                    &none    	&none   	&none 				 &none 			&kp N0 			&none
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────────╯
